@@ -65,7 +65,7 @@ export default function Dashboard() {
                     <div className="xl:p-4 p-3">
                         <div className="flex justify-between items-center">
                             <h3 className="font-medium xl:text-2xl md:text-lg sm:text-base text-sm">검색 결과 <span className="text-[#0052CC]">0</span>건</h3>
-                            <div className="relative w-1/2">
+                            <div className="relative lg:w-auto w-1/2 flex justify-end">
                                 <input
                                     type="search"
                                     placeholder="검색"
