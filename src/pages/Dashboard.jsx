@@ -56,7 +56,7 @@ export default function Dashboard() {
             <div className="mt-16">
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="xl:text-3xl lg:text-2xl md:text-xl text-base font-bold">처방 대기 <span className="text-gray-400 xl:text-[22px] font-medium sm:text-base text-sm">(최근 30일 기준)</span></h2>
-                    <button className="bg-[#0052CC] text-white lg:px-5 sm:px-4 px-3 lg:py-3 py-2  rounded-lg md:text-base sm:text-sm text-xs">
+                    <button className="cursor-pointer bg-[#0052CC] text-white lg:px-5 sm:px-4 px-3 lg:py-3 py-2  rounded-lg md:text-base sm:text-sm text-xs">
                         환자 등록하기
                     </button>
                 </div>
@@ -116,7 +116,7 @@ export default function Dashboard() {
                                                 <span className="text-gray-500 mb-4 md:text-base sm:text-sm text-xs">
                                                     '환자 등록' 후 처방이 가능합니다.
                                                 </span>
-                                                <button className="bg-[#0052CC] text-white lg:px-5 sm:px-4 px-3 lg:py-3 py-2  rounded-lg md:text-base sm:text-sm text-xs">
+                                                <button className="cursor-pointer bg-[#0052CC] text-white lg:px-5 sm:px-4 px-3 lg:py-3 py-2  rounded-lg md:text-base sm:text-sm text-xs">
                                                     환자 등록하기
                                                 </button>
                                             </div>

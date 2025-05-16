@@ -41,9 +41,9 @@ export default function Sidebar() {
       </div>
       <div className="h-full">
         <div className="flex flex-col justify-center h-full gap-4 px-10">
-          <span>사용설명서</span>
-          <span>소프트웨어 명칭 및 버전</span>
-          <span>의료기기 인증 정보</span>
+          <span className="cursor-pointer">사용설명서</span>
+          <span className="cursor-pointer">소프트웨어 명칭 및 버전</span>
+          <span className="cursor-pointer">의료기기 인증 정보</span>
         </div>
       </div>
     </div>
