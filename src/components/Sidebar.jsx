@@ -3,7 +3,7 @@ import { HomeIcon, DocumentIcon, UserIcon, ArrowLeftCircleIcon } from '@heroicon
 import DropdownMenu from './global/DropdownMenu'
 
 export default function Sidebar() {
-  const [isOpened, setIsOpened] = useState(false)
+  const [isOpened, setIsOpened] = useState(true)
   useEffect(()=>{
     const handleResize = () => {
       if (window.innerWidth > 1024) {
