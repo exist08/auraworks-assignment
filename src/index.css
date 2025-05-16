@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Prentendard";
+    src: url(./assets/fonts/PretendardVariable.ttf);
+}
+body{
+    font-family: "Prentendard", sans-serif;
+    color: #161621;
+}
