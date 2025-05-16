@@ -3,6 +3,7 @@ import { HomeIcon, DocumentIcon, UserIcon, ArrowLeftCircleIcon } from '@heroicon
 import DropdownMenu from './global/DropdownMenu'
 
 export default function Sidebar() {
+  const [isOpened, setIsOpened] = useState(false)
   useEffect(()=>{
     const handleResize = () => {
       if (window.innerWidth > 1024) {
@@ -18,7 +19,6 @@ export default function Sidebar() {
       window.removeEventListener('resize', handleResize)
     }
   },[])
-  const [isOpened, setIsOpened] = useState(false)
   return (
     <div className={`w-64 bg-gray-50 py-2 lg:static absolute z-10 lg:h-auto h-full shadow-lg lg:transform-none transform ${isOpened ? 'translate-x-0' : '-translate-x-full'} transition duration-700`}>
       <div className="flex flex-col gap-4">
